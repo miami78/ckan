@@ -65,3 +65,4 @@ zope.interface==4.3.2
 # The following packages are commented out because they are
 # considered to be unsafe in a requirements file:
 # setuptools                # via repoze.who, zope.interface
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
